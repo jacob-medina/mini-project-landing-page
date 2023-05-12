@@ -3,6 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <title>Landing Page</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">   
+        
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
@@ -10,25 +15,50 @@
         <!-- Header with navigation menu-->
         <header>
             <nav>
-
+                <a href="index.html"><img id="header-logo" src="./assets/images/amp-logo.png" alt="Amp It Up logo" /></a>
+                
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">EQUIPMENT</a></li>
+                    <li><a href="#contact-section">CONTACT</a></li>
+                </ul>
             </nav>
         </header>
 
         <!-- Main Content -->
         <main>
             <!-- Section: Intro image -->
-            <section>
-                <h1>Hello!</h1>
+            <section id="intro-section">
+                <h1>AMP IT UP.</h1>
 
-                <figure>
-                    <img src="./assets/images/logo.png" />
-                    <figcaption>This is a caption</figcaption>
+                <p id="intro-phrase">Music gig equipment for <strong>all</strong>.</p>
+
+                <figure class="center">
+                    <img id="main-image" class="center" src="./assets/images/rock-band.jpeg" alt="rock band stock photo" />
+                    <figcaption>This could be your band!</figcaption>
                 </figure>
             </section>
 
             <!-- Section: Contact form -->
-            <section>
-                <h2>Contact Me</h2>
+            <section id="contact-section" class="center">
+                <h2>READY TO ROCK?</h2>
+
+                <!-- Contact form container -->
+                <div class="form-container">
+                    <h3>CONTACT US.</h3>
+
+                    <!-- Contact form -->
+                    <form class="contact-form center">
+                        <label for="name-input">Name</label>
+                        <input id="name-input" type="text" name="name" placeholder="Full Name" autocomplete="given-name">
+
+                        <label for="email-input">Email</label>
+                        <input id="email-input" type="text" name="email" placeholder="your.email@email.com" autocomplete="email">
+
+                        <button id="contact-form-submit-button" type="submit">SEND</button>
+
+                    </form>
+                </div>
 
             </section>
 
@@ -36,7 +66,7 @@
 
         <!-- Footer with copyright info -->
         <footer>
-            <p>©2023 Jacob Medina</p>
+            <p id="copyright">©<time datetime="2023">2023</time> Jacob Medina</p>
         </footer>
     </body>
 

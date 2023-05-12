@@ -1,0 +1,195 @@
+/* COLOR PALETTE: https://colorhunt.co/palette/f6f1f1afd3e219a7ce146c94 */
+
+/* Universal selector */
+* {
+    font-family: 'Bowlby One', 'Quicksand', sans-serif;
+    color: #3a0725;
+}
+
+/* Default background for body */
+body {
+    background-color: #FFF3F3;
+}
+
+/* top of landing page and navigation menu */
+header {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #FFCEFA;
+    border-bottom: 5px solid #3a0725;
+}
+
+/* Navigation menu */
+nav {
+    padding: 10px;
+    text-align: right;
+}
+
+/* Logo in nav menu */
+nav img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 0px;
+    margin-top: 7.5px;
+}
+
+/* Navigation menu items */
+nav li {
+    display: inline;
+    margin: 0px 2%;
+    font-size: large;
+}
+
+/* Navigation menu links */
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: #F71D9F;
+    transition: 0.2s;
+}
+
+main {
+    /* width: 60%; */
+    margin: auto auto auto auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+/* Any text that's not a heading is spaced out more */
+body:not(h1):not(h2):not(h3) {
+    letter-spacing: 2px;
+}
+
+strong {
+    /* text-decoration: underline; */
+    color: #F71D9F;
+}
+
+label, input, button[type="submit"] {
+    display: block;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 5px;
+    text-align: center;
+    color: #FFF3F3;
+}
+
+/* Target text inputs */
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #FFF3F3;
+    border: none;
+    border-radius: 0;
+    color: #3a0725;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    padding: 10px 0;
+    background-color: #FFCEFA;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.form-container {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #3a0725;
+    border: 5px solid #3a0725;
+    box-shadow: 30px 30px 0px #F71D9F;
+}
+
+/* Heading inside of a form */
+.form-container h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #FFF3F3;
+}
+
+.contact-form {
+    margin: auto;
+}
+
+#intro-section {
+    padding: 40px 0;
+}
+
+#intro-phrase {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#main-image {
+    height: 600px;
+    margin-bottom: 40px;
+    box-shadow: 30px 30px 0px #F71D9F;
+}
+
+/* Figcaption that comes after main-image */
+#main-image + figcaption {
+    display: block;
+    
+    text-align: center;
+    font-size: xx-large;
+}
+
+#contact-section {
+    padding: 25px;
+    /* background-color: #19A7CE; */
+}
+
+/* Submit button on contact form */
+#contact-form-submit-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #F71D9F;
+    border: none;
+    border-radius: 5px;
+    color: #FFF3F3;
+    transition-duration: 0.2s;
+    
+}
+
+/* When submit button is hovered over */
+#contact-form-submit-button:hover {
+    background-color: #f454b4;
+}
+
+#copyright, #copyright time {
+    text-align: center;
+    color: #F71D9F;
+}
